@@ -4,8 +4,7 @@ Our goal is to make the Real World Images look like they are genuinely from a Ca
 
 ## Original Image
 
-
-
+![Alt text](/relative/backend/src/input.jpg?raw=true "Optional Title")
 
 
 ## Cartoonizer Result
