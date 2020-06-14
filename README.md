@@ -4,8 +4,8 @@ Our goal is to make the Real World Images look like they are genuinely from a Ca
 
 ## Original Image
 
-<img src="https://github.com/koyomi69/CARTOONIFIER-WEB-APP/blob/master/backend/src/input.jpg" width="100">
+<img src="https://github.com/koyomi69/CARTOONIFIER-WEB-APP/blob/master/backend/src/input.jpg" height="50%" width="50%">
 
 ## Cartoonizer Result
 
-<img src="https://github.com/koyomi69/CARTOONIFIER-WEB-APP/blob/master/backend/src/output.png" width="100">
+<img src="https://github.com/koyomi69/CARTOONIFIER-WEB-APP/blob/master/backend/src/output.png" height="50%" width="50%">
