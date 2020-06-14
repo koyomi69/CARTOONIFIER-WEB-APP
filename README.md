@@ -9,3 +9,18 @@ Our goal is to make the Real World Images look like they are genuinely from a Ca
 ## Cartoonizer Result
 
 <img src="https://github.com/koyomi69/CARTOONIFIER-WEB-APP/blob/master/output.png" height="60%" width="60%">
+
+### Process of Running Files
+
+First of all, run the following command to install the required libraries:
+
+pip install -r req.tx
+
+Next, cd into backend and run the command:
+
+python manage.py runserver 0.0.0.0:8181
+
+Now open up your browser and enter your ip address and the 8181 port number in this format -> <IPADDRESS>:8181/cartoon 
+  e.g. 127.0.0.1:8181/cartoon
+
+Test the Cartoonizer Web App
