@@ -4,7 +4,7 @@ Our goal is to make the Real World Images look like they are genuinely from a Ca
 
 ## Original Image
 
-![Alt text](https://github.com/koyomi69/CARTOONIFIER-WEB-APP/blob/master/backend/src/input.jpg | width=100)
+![Alt text](https://github.com/koyomi69/CARTOONIFIER-WEB-APP/blob/master/backend/src/input.jpg){:width="100px"}
 
 ## Cartoonizer Result
 
