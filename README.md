@@ -20,7 +20,7 @@ Next, cd into backend and run the command:
 
 python manage.py runserver 0.0.0.0:8181
 
-Now open up your browser and enter your ip address and the 8181 port number in this format -> <IPADDRESS>:8181/cartoon 
+Now open up your browser and enter your ip address and the 8181 port number in this format -> IPADDRESS:8181/cartoon 
   e.g. 127.0.0.1:8181/cartoon
 
 Test the Cartoonizer Web App
