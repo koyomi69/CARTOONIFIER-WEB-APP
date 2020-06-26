@@ -12,19 +12,19 @@ Our goal is to make the Real World Images look like they are genuinely from a Ca
 
 ### Process of Running Files
 
-First of all, run the following command to install the required libraries:
+-) First of all, run the following command to install the required libraries:
 
 pip install -r req.tx
 
-Next, cd into backend and run the command:
+-) Next, cd into backend and run the command:
 
 python manage.py runserver 0.0.0.0:8181
 
-Now open up your browser and enter your ip address and the 8181 port number in this format -> IPADDRESS:8181/cartoon 
+-) Now open up your browser and enter your ip address and the 8181 port number in this format -> IPADDRESS:8181/cartoon 
   e.g. 127.0.0.1:8181/cartoon
 
-Test the Cartoonizer Web App
+-) Test the Cartoonizer Web App
 
-Note: If some warning of unapplied migrations appears, then run the following command to solve it:
+-) Note: If some warning of unapplied migrations appears, then run the following command to solve it:
 
 python manage.py migrate
