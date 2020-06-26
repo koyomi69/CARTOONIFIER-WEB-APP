@@ -1,6 +1,6 @@
 # CARTOONIFIER-WEB-APP
 
-Our goal is to make the Real World Images look like they are genuinely from a Cartoon. This is done by applying a bilateral filter on our input image. A bilateral filter is used for smoothening images and reducing noise, while preserving edges. Because a bilateral filter smooths flat regions while keeping edges sharp, it is ideally suited to convert an RGB image into a cartoon. Unfortunately, bilateral filters are orders of magnitudes slower than other smoothing operators (e.g., Gaussian blur). Thus, for having a high performance, it is operated on a down-scaled version of the original image first and then is upscaled afterwards. 
+Our goal is to make the Real World Images look like they are genuinely from a Cartoon. This is done by using a bilateral filter and applying some edge detection on our input image.  
 
 ## Original Image
 
@@ -8,7 +8,7 @@ Our goal is to make the Real World Images look like they are genuinely from a Ca
 
 ## Cartoonizer Result
 
-<img src="https://github.com/koyomi69/CARTOONIFIER-WEB-APP/blob/master/output.png" height="60%" width="60%">
+<img src="https://github.com/koyomi69/CARTOONIFIER-WEB-APP/blob/master/backend/src/output.png" height="60%" width="60%">
 
 ### Process of Running Files
 
@@ -24,3 +24,7 @@ Now open up your browser and enter your ip address and the 8181 port number in t
   e.g. 127.0.0.1:8181/cartoon
 
 Test the Cartoonizer Web App
+
+Note: If some warning of unapplied migrations appears, then run the following command to solve it:
+
+python manage.py migrate
